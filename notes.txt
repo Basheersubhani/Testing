@@ -1,0 +1,41 @@
+git remote add origin <repository-url>
+-This connects your local project to a GitHub repository
+example : git remote add origin https://github.com/Basheersubhani/Testing.git
+
+git config --global user.name "Basheersubhani"
+This tells Git who you are.
+example : git config --global user.name "Basheersubhani"
+Git will use this name when you make commits.
+--global means this name will be used for Git repositories on your computer.
+
+git config --global user.email "gskbasheer4@gmail.com"
+This sets the email associated with your Git commits.
+example : git config --global user.email "gskbasheer4@gmail.com"
+
+git branch
+Shows the branches in your current repository.
+
+git status
+Shows the current condition of your project.
+It helps you know:Which files were changed,added,deleted,modified
+
+git add filename.extension
+Adds a specific file to the staging area.
+Example:git add server.js
+
+git add . 
+adds all the files to the staging area
+
+git add file1 file2 file3
+adds specific files to the staging area
+
+git commit -m "message"
+Saves your staged changes as a commit.
+Example:git commit -m "Added login API"
+
+git push origin master
+Uploads your commits from your computer(local) to GitHub(remote/central/online repo).
+git push origin master
+
+
+
